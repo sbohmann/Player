@@ -31,6 +31,13 @@
 			remoteGlobalIDString = 9630025C20026E3900955BC3;
 			remoteInfo = Player;
 		};
+		963002A520026EAB00955BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963002A120026EAA00955BC3 /* DevTools.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9630029720026EAA00955BC3;
+			remoteInfo = DevTools;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +54,7 @@
 		9630027C20026E3900955BC3 /* PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9630028020026E3900955BC3 /* PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUITests.swift; sourceTree = "<group>"; };
 		9630028220026E3900955BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963002A120026EAA00955BC3 /* DevTools.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DevTools.xcodeproj; path = DevTools/DevTools.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		9630025420026E3900955BC3 = {
 			isa = PBXGroup;
 			children = (
+				963002A120026EAA00955BC3 /* DevTools.xcodeproj */,
 				9630025F20026E3900955BC3 /* Player */,
 				9630027420026E3900955BC3 /* PlayerTests */,
 				9630027F20026E3900955BC3 /* PlayerUITests */,
@@ -123,6 +132,14 @@
 				9630028220026E3900955BC3 /* Info.plist */,
 			);
 			path = PlayerUITests;
+			sourceTree = "<group>";
+		};
+		963002A220026EAA00955BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963002A620026EAB00955BC3 /* DevTools */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +235,12 @@
 			mainGroup = 9630025420026E3900955BC3;
 			productRefGroup = 9630025E20026E3900955BC3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 963002A220026EAA00955BC3 /* Products */;
+					ProjectRef = 963002A120026EAA00955BC3 /* DevTools.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9630025C20026E3900955BC3 /* Player */,
@@ -226,6 +249,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		963002A620026EAB00955BC3 /* DevTools */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevTools;
+			remoteRef = 963002A520026EAB00955BC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9630025B20026E3900955BC3 /* Resources */ = {
